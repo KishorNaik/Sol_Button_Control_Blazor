@@ -1,0 +1,20 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <ButtonComponent @ref="ButtonBlue" Text="Blue Button" Styles="ButtonStyle.blue" OnClickEventHandler="OnBlueButtonClickEventHandler"></ButtonComponent>
+        </div>
+        <div class="col-4">
+            <ButtonComponent @ref="ButtonGreen" Text="Green Button" Styles="ButtonStyle.green" OnClickEventHandler="OnGreenButtonClickEventHandler"></ButtonComponent>
+        </div>
+        <div class="col-4">
+            <ButtonComponent @ref="ButtonRed" Text="Red Button" Styles="ButtonStyle.red" OnClickEventHandler="OnRedButtonClickEventHandler"></ButtonComponent>
+        </div>
+    </div>
+    <div class="row m-5">
+        <div class="col-12">
+            <div class="alert alert-info">
+                <span>@DisplayText</span>
+            </div>
+        </div>
+    </div>
+</div>

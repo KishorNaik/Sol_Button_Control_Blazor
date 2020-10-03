@@ -1,0 +1,14 @@
+﻿@if (Styles == ButtonStyle.blue)
+{
+    StyleName = "btn blue";
+}
+else if (Styles == ButtonStyle.green)
+{
+    StyleName = "btn green";
+}
+else if (Styles == ButtonStyle.red)
+{
+    StyleName = "btn red";
+}
+
+<button type="button" class="@StyleName" @onclick="OnClickEventHandler">@Text</button>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Button", "Button\Button.csproj", "{0EC016C4-1EA5-43D1-9EAA-92B9422B1F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{F54CDB41-3138-4D87-8C80-35B1C7FD0096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC016C4-1EA5-43D1-9EAA-92B9422B1F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC016C4-1EA5-43D1-9EAA-92B9422B1F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC016C4-1EA5-43D1-9EAA-92B9422B1F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC016C4-1EA5-43D1-9EAA-92B9422B1F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54CDB41-3138-4D87-8C80-35B1C7FD0096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54CDB41-3138-4D87-8C80-35B1C7FD0096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54CDB41-3138-4D87-8C80-35B1C7FD0096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54CDB41-3138-4D87-8C80-35B1C7FD0096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCC61582-5EDB-4774-9E52-BFBAC97B457D}
+	EndGlobalSection
+EndGlobal
